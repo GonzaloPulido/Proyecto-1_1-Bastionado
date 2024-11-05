@@ -15,7 +15,7 @@ La **contraseña de usuario** o **Power-On** impide el acceso no autorizado al s
 
 **Buscar la opción de seguridad**: Navega a la sección de "Security" o "Security Settings".
 
-![](/assets/1.png)
+![](./assets/1.png)
 
 **Configurar la contraseña**:
 - Selecciona la opción "Set User Password" o "Set Supervisor Password".
@@ -33,7 +33,7 @@ La **contraseña de administrador** ofrece un nivel adicional de seguridad al re
 
 **Buscar la opción de seguridad**: Ve a la sección de "Security" o "Security Settings".
 
-![](/assets/2.png)
+![](./assets/2.png)
 
 **Establecer la contraseña**:
 
@@ -50,7 +50,7 @@ Para evitar que el sistema arranque desde dispositivos externos (como USB, CD/DV
 
 **Buscar la opción de arranque**: Navega a la sección de "Boot" o "Boot Options".
 
-![](/assets/3.png)
+![](./assets/3.png)
 
 **Desactivar dispositivos externos**:
 
@@ -58,7 +58,7 @@ Para evitar que el sistema arranque desde dispositivos externos (como USB, CD/DV
 
   - Desactiva el arranque desde USB o dispositivos externos, o mueve el disco duro interno a la parte superior de la lista de arranque.
 
-![](/assets/4.png)
+![](./assets/4.png)
   
 
 **Guardar cambios**: Asegúrate de guardar los cambios antes de salir.
@@ -83,5 +83,5 @@ Además de las contraseñas y la configuración del arranque, considera implemen
 
 -   **Secure Boot**: Asegúrate de que la opción de "Secure Boot" esté habilitada. Esto ayuda a prevenir la carga de software malicioso durante el arranque.
 
-![](/assets/5.png)
-![](/assets/6.png)
+![](./assets/5.png)
+![](./assets/6.png)

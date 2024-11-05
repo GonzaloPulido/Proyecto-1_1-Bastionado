@@ -1,0 +1,109 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Guía para Bastionar la BIOS/UEFI</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/claat-public/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="GonzaloPulido_BIOS"
+                  title="Guía para Bastionar la BIOS/UEFI"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="1. Configuración de Contraseña de Usuario o Power-On" duration="0">
+        <p>La <strong>contraseña de usuario</strong> o <strong>Power-On</strong> impide el acceso no autorizado al sistema durante el arranque. Aquí te explicamos cómo configurarla:</p>
+<p><strong>Acceso a BIOS/UEFI</strong>: Reinicia tu ordenador y presiona la tecla correspondiente (comúnmente <code>F2</code>, <code>F10</code>, <code>Del</code> o <code>Esc</code>) para entrar en la configuración de BIOS/UEFI.</p>
+<p><strong>Buscar la opción de seguridad</strong>: Navega a la sección de &#34;Security&#34; o &#34;Security Settings&#34;.</p>
+<p class="image-container"><img src="img/2124ed5fcded8e97.png"></p>
+<p><strong>Configurar la contraseña</strong>:</p>
+<ul>
+<li>Selecciona la opción &#34;Set User Password&#34; o &#34;Set Supervisor Password&#34;.</li>
+<li>Introduce la contraseña deseada y confírmala.</li>
+<li>Guarda los cambios y sal de la BIOS/UEFI.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="2. Configuración de Contraseña de Administrador" duration="0">
+        <p>La <strong>contraseña de administrador</strong> ofrece un nivel adicional de seguridad al restringir los cambios en la configuración de la BIOS/UEFI.</p>
+<p><strong>Acceso a BIOS/UEFI</strong>: Reinicia el ordenador y accede a la configuración de BIOS/UEFI.</p>
+<p><strong>Buscar la opción de seguridad</strong>: Ve a la sección de &#34;Security&#34; o &#34;Security Settings&#34;.</p>
+<p class="image-container"><img src="img/37d05f2f26a9c179.png"></p>
+<p><strong>Establecer la contraseña</strong>:</p>
+<ul>
+<li>Selecciona &#34;Set Supervisor Password&#34;.</li>
+<li>Introduce y confirma la nueva contraseña.</li>
+<li>Guarda los cambios y sal de la BIOS/UEFI.</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="3. Prevención de Arranques Externos" duration="0">
+        <p>Para evitar que el sistema arranque desde dispositivos externos (como USB, CD/DVD), sigue estos pasos:</p>
+<p><strong>Acceso a BIOS/UEFI</strong>: Entra en la configuración de BIOS/UEFI durante el arranque.</p>
+<p><strong>Buscar la opción de arranque</strong>: Navega a la sección de &#34;Boot&#34; o &#34;Boot Options&#34;.</p>
+<p class="image-container"><img src="img/1652be3053c9e5df.png"></p>
+<p><strong>Desactivar dispositivos externos</strong>:</p>
+<ul>
+<li>Encuentra las opciones relacionadas con &#34;Boot Order&#34; o &#34;Boot Device Priority&#34;.</li>
+<li>Desactiva el arranque desde USB o dispositivos externos, o mueve el disco duro interno a la parte superior de la lista de arranque.</li>
+</ul>
+<p class="image-container"><img src="img/3969a536091952f9.png"></p>
+<p><strong>Guardar cambios</strong>: Asegúrate de guardar los cambios antes de salir.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="4. Establecimiento de un Orden de Arranque Seguro" duration="0">
+        <p>Configurar un orden de arranque seguro asegura que el sistema siempre intente arrancar desde el disco duro antes de otros dispositivos.</p>
+<p><strong>Acceso a BIOS/UEFI</strong>: Accede a la configuración durante el arranque.</p>
+<p><strong>Buscar la opción de arranque</strong>: Ve a la sección de &#34;Boot&#34; o &#34;Boot Order&#34;.</p>
+<p><strong>Configurar el orden</strong>:</p>
+<ul>
+<li>Asegúrate de que tu disco duro o SSD está en la parte superior de la lista.</li>
+<li>Desactiva o mueve dispositivos que no sean necesarios.</li>
+</ul>
+<p><strong>Guardar cambios</strong>: Guarda la configuración antes de salir.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="5. Otras Opciones de Seguridad" duration="0">
+        <p>Además de las contraseñas y la configuración del arranque, considera implementar las siguientes opciones de seguridad:</p>
+<ul>
+<li><strong>Secure Boot</strong>: Asegúrate de que la opción de &#34;Secure Boot&#34; esté habilitada. Esto ayuda a prevenir la carga de software malicioso durante el arranque.</li>
+</ul>
+<p class="image-container"><img src="img/dc8f10fb8aec6adc.png"><img src="img/e50af9eb3f56d837.png"></p>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/claat-public/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/prettify.js"></script>
+  <script src="https://storage.googleapis.com/claat-public/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>
